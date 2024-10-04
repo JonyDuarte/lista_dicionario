@@ -20,6 +20,7 @@ usuarios = [
     }
 ]
 
+# cadastrar novo usuário
 usuario = {}
 for atributo in atributos:
         usuario[atributo] = input(f"Informe o valor do campo {atributo}: ")
